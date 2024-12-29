@@ -1,0 +1,51 @@
+Project 2 - Search Engine [pt. 3]
+Team Members
+Monika Basnet
+Sadikshya Sapkota
+Amshu Wagle
+
+Project Goal
+For part 3, we are implementing and testing a comprehensive article metadata search system. We are creating functions that enable advanced filtering such as filtering by article length, author-based grouping and filtering, keyword exclusion, and year-based filtering. Our goal is to ensure search functionality with thorough testing coverage for both unit and integrated systems.
+What Each Person Will Do
+Monika Basnet:
+Wrote all main functions in search.py:
+keyword_to_titles(metadata)
+title_to_info(metadata)
+search(keyword, keyword_to_titles)
+article_length(max_length, article_titles, title_to_info)
+key_by_author(article_titles, title_to_info)
+filter_to_author(author, article_titles, title_to_info)
+filter_out(keyword, article_titles, keyword_to_titles)
+articles_from_year(year, article_titles, title_to_info)
+Ensured proper handling of edge case
+
+Sadikshya Sapkota:
+Wrote unit tests to check each function:
+Tested keyword searches, search functionality with present and absent keywords, article length filtering, author-based filtering, year-based article filtering
+Tested edge cases like empty inputs and missing data
+
+Amshu Wagle
+Built integration tests to check everything works together:
+Tested complete search process with different user inputs, advanced search process with keywords, and checked if all filter functions work with inputs.
+Verified proper output formatting in all test cases
+Submitted the project in Edstem
+
+Challenges and How You Overcame Them
+Timestamp handling in the articles_from_year function. It was resolved using the datetime and time modules. It was hard getting all the tests to pass together. We had to check line-by-line, fix bugs as soon as we found them, and make sure tests covered all edge cases.
+
+Additional Notes
+Resources: 
+Datetime and time modules for testing implementation. 
+Edstem for development and submission
+
+Decisions:
+Equally divided the responsibility of who does which part
+Maintained consistent testing for all functions.
+
+Lessons Learned:
+Test small parts before combining everything.  
+Consistent error handling and edge case testing.
+Coordinated testing between unit and integration test.
+
+Communication: We made sure there was clear communication among the members. We shared what each of us understood and did, which helped us break down problems faster and allowed us to complete the project smoothly.
+
