@@ -1,0 +1,36 @@
+Project 2 - Search Engine [pt. _1_ ]
+Team Members
+Sadikshya Sapkota
+Monika Basnet
+Amshu Wagle
+
+Project Goal
+The goal of this project is to build a simplified search engine that can search through a set of article titles based on a user’s keyword input. We aim to implement both basic and advanced search functionalities, allowing users to perform tasks like limiting title length, retrieving a specific number of results, and checking if a favorite article is included in the search results. The project also focuses on ensuring robust testing through unit and integration tests.
+
+What Each Person Will Do
+Sadikshya Sapkota:
+Focused on the integration testing for the search engine; Wrote tests to ensure the proper interaction between the different search functionalities and user input options; Specifically worked on verifying the correct behavior of advanced search options like random article retrieval and multiple keyword search.
+
+
+Monika Basnet:
+Handled the unit testing for each individual function; Created edge case tests for the search, title_length, article_count, and favorite_article functions; Ensured that each function behaves as expected with both typical and boundary inputs.
+
+Amshu Wagle:
+Implemented the main search functionalities; Coded the search, title_length, random_article, article_count, favorite_article, and multiple_keywords functions; Worked on integrating these functions into the display_result method that ties everything together.
+
+Challenges and How You Overcame Them
+Testing Random Article Functionality
+Ensuring the random_article function returned consistent results during tests was tricky because of the random element. We overcame this by controlling the index input during testing instead of using actual random values, which made the tests more predictable.
+Additional Notes
+[Any important notes for future reference?]
+
+Lessons Learned: One lesson was the importance of splitting work based on team members’ strengths. By rotating responsibilities, we each gained experience in different aspects of the project while ensuring full coverage of features and testing.
+
+
+[Examples:]
+Resources: Links to helpful websites, libraries, or documentation that you used during the project.
+Decisions: Record of key decisions made by the team and the reasoning behind them.
+Lessons Learned: Reflections on what worked well, what could be improved, and what you would do differently next time.
+Unexpected Issues: Any surprising challenges or roadblocks you encountered and how you addressed them.
+Communication Logs: A summary of important team discussions or correspondence (especially useful for resolving disagreements or clarifying misunderstandings).
+
