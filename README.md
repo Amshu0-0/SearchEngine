@@ -1,5 +1,7 @@
 Simplified Search Engine
+
 Debrief Doc - https://docs.google.com/document/d/1np1tfQLwx7rW91O2XP-3dz_M6Q9sHyxKHTQfHs4g7yg/edit?usp=sharing
+
 A search engine takes a given search phrase or word and finds pages on the internet that are relevant, ranks the pages, and then displays the pages in the order of ranking.
 
 In part 1 of this project, we searched a list of article titles to see if they contain a user provided keyword as a part of the title. In part 2, we searched through a 2D list of article metadata in order to find articles that are relevant to our keyword rather than having titles that strictly include it. In part 3 we will search through the same 2D list of metadata but before performing our searches, we will preprocess the data into dictionaries.
