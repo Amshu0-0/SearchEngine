@@ -1,0 +1,26 @@
+Project 2 - Search Engine [pt. _2_ ]
+Team Members
+Sadikshya Sapkota
+Monika Basnet
+Amshu Wagle
+
+Project Goal
+The goal of this project is to build a simplified search engine that  searches through article metadata based on user input , using both basic and advanced search functionalities .We aim to implement features  like filtering by article length, retrieving unique authors, identifying recent articles, and refining search results. The project also focuses on ensuring robust testing through unit and integration tests.
+
+What Each Person Will Do
+Monika Basnet:
+Focused on the integration testing for the search engine; Wrote tests to ensure the proper interaction between the different search functionalities and user input options.
+
+
+Sadikshya Sapkota:
+Handled the unit testing for each individual function; Created edge case tests for the search, article_length, unique_authors, most_recent_article, favorite_author, title_and_author, refine_search functions; Ensured that each function behaves as expected with both typical and boundary inputs.
+
+Amshu Wagle:
+Implemented the main search functionalities; Coded the search, article_length, unique_authors, most_recent_article, favorite_author, title_and_author, refine_search functions; Worked on integrating these functions into displaying result that ties everything together.
+
+Challenges and How You Overcame Them
+Spotting minor formatting issues
+The main challenge was that even tiny differences, like extra space , caused tests to fail despite correct-looking output.To solve this, we used  self.maxDiff = None  in our tests , allowing us to view the entire difference between actual and expected outputs and spot minor formatting issues more easily.
+Additional Notes
+Make sure there is clear communication and  learn or help each other if a member in a group is having issue understanding something. Doing this  helps complete our task quickly.
+Lessons Learned: A key lesson was the value of collaborative learning - by sharing what each of us understood , we could break down problems faster, support each other , and complete the project smoothly .This teamwork approach allowed us to tackle challenges effectively.
